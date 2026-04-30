@@ -51,7 +51,21 @@ cd /path/to/project && pytohtml main.py
 ## 依存関係
 
 - Python 3.x
-- Pygments (`pip install pygments`)
+- Pygments
+
+## 依存関係のインストール
+
+venv を使う場合は仮想環境を有効化してから:
+
+```bash
+pip install pygments
+```
+
+システム環境で直接使う場合は:
+
+```bash
+python3 -m pip install pygments
+```
 
 ## エラーハンドリング
 
